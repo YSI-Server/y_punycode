@@ -98,9 +98,9 @@ Operators:
 	-
 \**--------------------------------------------------------------------------**/
 
-#include "..\YSI-Internal\y_version"
-#include "..\YSI-Internal\y_pp"
-#include "..\YSI-Core\y_debug"
+#include "..\YSI_Internal\y_version"
+#include "..\YSI_Internal\y_pp"
+#include "..\YSI_Core\y_debug"
 
 #include <a_http>
 
@@ -603,6 +603,6 @@ static stock Puny_Adapt(delta, length, bool:firstTime)
 #undef PUNY_CHAR
 
 #if defined YSI_TESTS
-	#include "..\YSI-Core\y_testing"
+	#include "..\YSI_Core\y_testing"
 	#include "y_punycode/tests"
 #endif
