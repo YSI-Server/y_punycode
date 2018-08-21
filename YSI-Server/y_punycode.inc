@@ -102,14 +102,14 @@ Optional plugins:
 	#tryinclude "y_punycode\y_punycode_entry"
 #endif
 #if !defined _INC_y_punycode
-	#tryinclude "YSI_Server\y_punycode\y_punycode_entry"
+	#tryinclude "YSI-Server\y_punycode\y_punycode_entry"
 #endif
 #if !defined _INC_y_punycode
-	#tryinclude "YSI\YSI_Server\y_punycode\y_punycode_entry"
+	#tryinclude "YSI\YSI-Server\y_punycode\y_punycode_entry"
 #endif
 #if !defined _INC_y_punycode
-	#tryinclude <YSI_Server\y_punycode\y_punycode_entry>
+	#tryinclude <YSI-Server\y_punycode\y_punycode_entry>
 #endif
 #if !defined _INC_y_punycode
-	#tryinclude <YSI\YSI_Server\y_punycode\y_punycode_entry>
+	#tryinclude <YSI\YSI-Server\y_punycode\y_punycode_entry>
 #endif
